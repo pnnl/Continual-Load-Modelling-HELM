@@ -4,11 +4,7 @@
 
 **Continual Load Modelling (HELM)** provides an approach to the exisiting load modelling efforts by considering power electronic devices while formulating generalized load structures. Previously load models were defined as (1) conventional ZIP (constant impedance (Z), current (I), and power (P) at fundamental frequency. (2) Adjusted ZIP to account for the current harmonics using a multiplying factor, the voltage harmonics are not considered. (3) Norton Model utilizes a linear relationship between corresponding harmonic components of load current and voltage, the cross coupling effects between the current and voltage harmonics are not considered.
 Frequency Coupling Matrix (FCM) approach allows a cross coupling between the load current and voltage through a linear relationship. It utilizes the generalized Norton model, cross admittance matrix, harmonic admittance matrix. The main drawback is that it assumes a linear relationship between the harmonics.
-The non-linear coupling model provides a cross coupling between the load current and voltage using a non-linear relationship. The major challenge incorporates a generalized model with large throughput data.
 
-```math
-\begin{bmatrix}I_1\\I_2\\...\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_km)\\f_3(V_1,V_3,...,V_km)\\...\\f_km(V_1,V_3,...,V_km)\end{bmatrix}
-```
 
 %## Installation Instructions
 
@@ -74,6 +70,3 @@ _MLA_
 Mitra, Bhaskar, Gallego-Calderon, Juan F., Elliott, Shiloh N, Mosier, Thomas M, and USDOE Office of Energy Efficiency and Renewable Energy. Hydrogenerate: Open Source Python Tool To Estimate Hydropower Generation Time-series. Computer software. https://www.osti.gov//servlets/purl/1829986. Vers. 3.6 or newer. USDOE Office of Energy Efficiency and Renewable Energy (EERE). 19 Oct. 2021. Web. doi:10.11578/dc.20211112.1.
 ```
 
-**Acknowledgement**
-
-The project is funded by the Sensor Technologies and Data Analytics Program (US DOE OE)
