@@ -24,6 +24,7 @@ Non-linear power electronic loads intothe distribution network has the potential
 generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
 transformers and evaluating their performance.
 
+Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation usinf PSCAD/EMTdc.
 
 **Authors**
 ```
@@ -38,7 +39,7 @@ James Ogle
 
 **Publications**
 
-Bhaskar Mitra, Ankit Singhal, Soumya Kundu, James P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023,
+B. Mitra, A. Singhal, S. Kundu, J. P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023,
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
 
@@ -47,13 +48,12 @@ A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harm
 If you are using our repository kindly use the following citation format(s).
 
 _Bibtex_
-```
+
 
 
 _Chicago_
 
 
-```
 
 _APA_
 

@@ -1,6 +1,8 @@
 # Continual Load Modelling (HELM)
 
-![img](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true)
+
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true" align="left" width="200px"/>
 
 **Continual Load Modelling (HELM)** provides an approach to the exisiting load modelling efforts by considering power electronic devices while formulating generalized 
 load structures. Previously load models were defined as (1) conventional ZIP (constant impedance (Z), current (I), and power (P) at fundamental frequency. 
@@ -10,6 +12,10 @@ Frequency Coupling Matrix (FCM) approach allows a cross coupling between the loa
 Norton model, cross admittance matrix, harmonic admittance matrix. The main drawback is that it assumes a linear relationship between the harmonics.
 The non-linear coupling model provides a cross coupling between the load current and voltage using a non-linear relationship. The major challenge incorporates a 
 generalized model with high throughput data.
+
+<br clear="left"/>
+
+
 
 ```math
 \begin{bmatrix}I_1\\I_2\\...\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_{km})\\f_3(V_1,V_3,...,V_{km})\\...\\f_{km}(V_1,V_3,...,V_{km})\end{bmatrix}
@@ -24,6 +30,7 @@ Non-linear power electronic loads intothe distribution network has the potential
 generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
 transformers and evaluating their performance.
 
+Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation usinf PSCAD/EMTdc.
 
 **Authors**
 ```
