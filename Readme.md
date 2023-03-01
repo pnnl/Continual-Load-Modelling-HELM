@@ -12,7 +12,7 @@ The non-linear coupling model provides a cross coupling between the load current
 
 For generation of synthetic throughput data we utilize PSCAD/EMTdc software for feederwide interactions between multiple houses with power electronic loads such as EV, laptop, desktop, PV inverter, HVAC.
 
-
+![alt text](https://github.com/pnnl/Continual-Load-Modelling-HELM/master/img/house_representation.png?raw=true)
 
 
 
