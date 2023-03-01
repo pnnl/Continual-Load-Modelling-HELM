@@ -1,6 +1,6 @@
 # Continual Load Modelling (HELM)
 
-![alt text](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true)
+![alt text](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true){:align="right" width="300px"}
 
 **Continual Load Modelling (HELM)** provides an approach to the exisiting load modelling efforts by considering power electronic devices while formulating generalized 
 load structures. Previously load models were defined as (1) conventional ZIP (constant impedance (Z), current (I), and power (P) at fundamental frequency. 
