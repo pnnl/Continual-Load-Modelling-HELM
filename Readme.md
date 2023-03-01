@@ -33,7 +33,7 @@ transformers and evaluating their performance.
 
 <br clear="left"/>
 
-Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation usinf PSCAD/EMTdc.
+Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc.
 
 **Authors**
 ```
@@ -48,7 +48,7 @@ James Ogle
 
 **Publications**
 
-B. Mitra, A. Singhal, S. Kundu, J. P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023,
+B. Mitra, A. Singhal, S. Kundu, J. P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023, doi: 10.48550/arXiv.2210.14824
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
 
