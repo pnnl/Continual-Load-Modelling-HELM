@@ -7,7 +7,7 @@ Frequency Coupling Matrix (FCM) approach allows a cross coupling between the loa
 The non-linear coupling model provides a cross coupling between the load current and voltage using a non-linear relationship. The major challenge incorporates a generalized model with large throughput data.
 
 ```math
-\begin{bmatrix}I_1\\I_2\\...\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_km)\\f_3(V_1,V_3,...,V_km)\\...\\f_km(V_1,V_3,...,V_km)\end{bmatrix}
+\begin{bmatrix}I_1\\I_2\\...\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_{km})\\f_3(V_1,V_3,...,V_{km})\\...\\f_{km}(V_1,V_3,...,V_{km})\end{bmatrix}
 ```
 
 %## Installation Instructions
