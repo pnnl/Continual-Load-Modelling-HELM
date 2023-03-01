@@ -17,8 +17,12 @@ generalized model with high throughput data.
 
 For generation of synthetic throughput data we utilize PSCAD/EMTdc software for feederwide interactions between multiple houses with power electronic loads such as EV, laptop, desktop, PV inverter, HVAC.
 
-![alt text](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/house_representation.png?raw=true)
+![img](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/house_representation.png?raw=true)
 
+
+Non-linear power electronic loads intothe distribution network has the potential to disrupt the existing distribution transformer operations. They were not designed to mediate the excessive heating losses 
+generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
+transformers and evaluating their performance.
 
 
 **Authors**
@@ -37,6 +41,7 @@ James Ogle
 Bhaskar Mitra, Ankit Singhal, Soumya Kundu, James P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023,
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
+
 **Citation**
 
 If you are using our repository kindly use the following citation format(s).
@@ -83,4 +88,4 @@ Mitra, Bhaskar, Gallego-Calderon, Juan F., Elliott, Shiloh N, Mosier, Thomas M, 
 
 **Acknowledgement**
 
-The project is funded by the Sensor Technologies and Data Analytics Program (US DOE OE)
+This work was supported by the Sensors and Data Analytics Program of the U.S. Department of Energy Office of Electricity.
