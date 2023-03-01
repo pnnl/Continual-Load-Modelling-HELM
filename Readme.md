@@ -2,7 +2,7 @@
 
 
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true" align="right" width="600px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true" align="right" width="450px"/>
 
 **Continual Load Modelling (HELM)** provides an approach to the exisiting load modelling efforts by considering power electronic devices while formulating generalized 
 load structures. Previously load models were defined as (1) conventional ZIP (constant impedance (Z), current (I), and power (P) at fundamental frequency. 
@@ -23,12 +23,15 @@ generalized model with high throughput data.
 
 For generation of synthetic throughput data we utilize PSCAD/EMTdc software for feederwide interactions between multiple houses with power electronic loads such as EV, laptop, desktop, PV inverter, HVAC.
 
-![img](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/house_representation.png?raw=true)
 
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/house_representation.png?raw=true" align="right" width="450px"/>
 
 Non-linear power electronic loads intothe distribution network has the potential to disrupt the existing distribution transformer operations. They were not designed to mediate the excessive heating losses 
 generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
 transformers and evaluating their performance.
+
+<br clear="left"/>
 
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation usinf PSCAD/EMTdc.
 
