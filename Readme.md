@@ -1,7 +1,6 @@
 # Continual Load Modelling (HELM)
 
 
-
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/fourier_series-011.png?raw=true" align="right" width="450px"/>
 
 **Continual Load Modelling (HELM)** provides an approach to the exisiting load modelling efforts by considering power electronic devices while formulating generalized 
@@ -23,7 +22,6 @@ generalized model with high throughput data.
 For generation of synthetic throughput data we utilize PSCAD/EMTdc software for feederwide interactions between multiple houses with power electronic loads such as EV, laptop, desktop, PV inverter, HVAC.
 
 
-
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/house_representation.png?raw=true" align="right" width="450px"/>
 
 Non-linear power electronic loads intothe distribution network has the potential to disrupt the existing distribution transformer operations. They were not designed to mediate the excessive heating losses 
@@ -34,20 +32,22 @@ transformers and evaluating their performance.
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
-Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset was curated for the analysis
-using a mixture of differnt power electronic load combinations. A total of 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided.
+Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
+was curated for the analysis using a mixture of differnt power electronic load combinations. A total of 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided.
 
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
 
-Currents recorded in the transformer secondary for the different scenarios described are recorded. The load compositions depict differnt times of the day when the transformer would be loaded close to its maximum operating capacity. 
+Currents recorded in the transformer secondary for the different scenarios described are recorded. The load compositions depict differnt times of the day when the transformer would be loaded close to 
+its maximum operating capacity. 
 
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="right" width="500px"/>
 
 Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
+
 <br clear="right"/>
 
 **Authors**
@@ -63,10 +63,10 @@ James Ogle
 
 **Publications**
 
-If you are using our data and repository kindly cite the following papers.
+If you are using our data and repository kindly cite the following papers:
 
 
-B. Mitra, A. Singhal, S. Kundu, J. P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023, doi: 10.48550/arXiv.2210.14824
+B. Mitra, A. Singhal, S. Kundu, J. P Ogle, "Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023, doi: 10.48550/arXiv.2210.14824
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
 
