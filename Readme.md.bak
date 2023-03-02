@@ -16,7 +16,6 @@ generalized model with high throughput data.
 <br clear="left"/>
 
 
-
 ```math
 \begin{bmatrix}I_1\\I_2\\.\\.\\.\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_{km})\\f_3(V_1,V_3,...,V_{km})\\...\\f_{km}(V_1,V_3,...,V_{km})\end{bmatrix}
 ```
@@ -40,6 +39,14 @@ using a mixture of differnt power electronic load combinations. A total of 10 sc
 
 <br clear="left"/>
 
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_scenarios.png?raw=true" align="right" width="450px"/>
+
+Currents recorded in the transformer secondary for the different scenarios described are recorded and analysed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses.
+
+<br clear="left"/>
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="center" width="450px"/>
+<br clear="center"/>
 
 **Authors**
 ```
@@ -54,28 +61,12 @@ James Ogle
 
 **Publications**
 
+If you are using our data and repository kindly cite the following papers.
+
+
 B. Mitra, A. Singhal, S. Kundu, J. P Ogle,"Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023, doi: 10.48550/arXiv.2210.14824
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
-
-**Citation**
-
-If you are using our repository kindly use the following citation format(s).
-
-_Bibtex_
-
-
-
-_Chicago_
-
-
-
-_APA_
-
-
-
-_MLA_
-
 
 
 **Acknowledgement**
