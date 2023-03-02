@@ -41,11 +41,13 @@ using a mixture of differnt power electronic load combinations. A total of 10 sc
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
 
-Currents recorded in the transformer secondary for the different scenarios described are recorded and analysed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses.
+Currents recorded in the transformer secondary for the different scenarios described are recorded. The load compositions depict differnt times of the day when the transformer would be loaded close to its maximum operating capacity. 
 
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="center" width="500px"/>
+
+Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
 <br clear="center"/>
 
 **Authors**
