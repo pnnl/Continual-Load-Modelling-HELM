@@ -39,6 +39,8 @@ Detailed power electronic models are developed for different load combinations t
 using a mixture of differnt power electronic load combinations. A total of 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided.
 
 <br clear="left"/>
+
+
 **Authors**
 ```
 Bhaskar Mitra

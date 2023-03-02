@@ -18,7 +18,7 @@ generalized model with high throughput data.
 
 
 ```math
-\begin{bmatrix}I_1\\I_2\\...\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_{km})\\f_3(V_1,V_3,...,V_{km})\\...\\f_{km}(V_1,V_3,...,V_{km})\end{bmatrix}
+\begin{bmatrix}I_1\\I_2\\.\\.\\.\\I_n\end{bmatrix} = \begin{bmatrix}f_1(V_1,V_3,...,V_{km})\\f_3(V_1,V_3,...,V_{km})\\...\\f_{km}(V_1,V_3,...,V_{km})\end{bmatrix}
 ```
 
 For generation of synthetic throughput data we utilize PSCAD/EMTdc software for feederwide interactions between multiple houses with power electronic loads such as EV, laptop, desktop, PV inverter, HVAC.
@@ -33,8 +33,12 @@ transformers and evaluating their performance.
 
 <br clear="left"/>
 
-Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc.
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
+Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset was curated for the analysis
+using a mixture of differnt power electronic load combinations. A total of 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided.
+
+<br clear="left"/>
 **Authors**
 ```
 Bhaskar Mitra
