@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this datasets or repository kindly cite as below."
+preferred-citation:
+	type: misc
+	authors:
+	- family-names: "Mitra"
+	  given-names: "Bhaskar"
+
+	- family-names: "Singhal"
+	  given-names: "Ankit"
+
+	- family-names: "Kundu"
+	  given-names: "Soumya"
+
+	- family-names: "Ogle"
+	  given-names: "James P."
+
+	title: "Continual Load Modelling (HELM) Database"
+	version: 0.0.1
+	doi: 10.48550/arXiv.2210.14824
+	date-released: 2023-03-03
+	url: "https://github.com/pnnl/Continual-Load-Modelling-HELM"
