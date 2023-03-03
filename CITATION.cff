@@ -1,14 +1,16 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+Continual Load Modelling [Harmonic Enhanced Load Modelling (HELM)]
+message: "If you use this dataset/repository, please cite it as below."
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Mitra"
+  given-names: "Bhaskar"
+- family-names: "Singhal"
+  given-names: "Ankit"
+- family-names: "Kundu"
+  given-names: "Soumya"
+- family-names: "Ogle"
+  given-names: "James P"
 title: "Continual-Load-Modelling-HELM"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
+doi: 10.48550/arXiv.2210.14824
 date-released: 2023-03-03
 url: "https://github.com/pnnl/Continual-Load-Modelling-HELM"
