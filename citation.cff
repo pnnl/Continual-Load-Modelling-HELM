@@ -1,18 +1,19 @@
-Continual Load Modelling (Harmonic Enhanced Load Modelling (HELM))
-message: "If you use this dataset or repository kindly cite as below."
+Hydrogenerate: Open Source Python Tool To Estimate Hydropower Generation Time-series
+message: "If you use this software, please cite it as below."
 preferred-citation:
 type: misc
 authors:
 - family-names: "Mitra"
   given-names: "Bhaskar"
-- family-names: "Singhal"
-  given-names: "Ankit"
-- family-names: "Kundu"
-  given-names: "Soumya"
-- family-names: "Ogle"
-  given-names: "James P"
-title: "Continual Load Modelling (HELM) Database"
-version: 0.0.1
-doi: 2023-03-03
+- family-names: "Gallego-Calderon"
+  given-names: "Juan F"
+- family-names: "Elliott"
+  given-names: "Shiloh N"
+- family-names: "Mosier"
+  given-names: "Thomas M"
+- given-names: "USDOE Office of Energy Efficiency and Renewable Energy"
+title: "Hydrogenerate: Open Source Python Tool To Estimate Hydropower Generation Time-series"
+version: 1.0.0
+doi: 10.11578/dc.20211112.1
 date-released: 2021-10-01
-url: "https://github.com/pnnl/Continual-Load-Modelling-HELM"
+url: "https://github.com/IdahoLabResearch/HydroGenerate"
