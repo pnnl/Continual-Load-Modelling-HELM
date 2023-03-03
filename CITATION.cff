@@ -1,4 +1,6 @@
 message: "If you use this dataset/repository, please cite it as below."
+preferred-citation:
+type: misc
 authors:
 - family-names: "Mitra"
   given-names: "Bhaskar"
