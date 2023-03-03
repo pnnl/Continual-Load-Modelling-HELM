@@ -13,6 +13,5 @@ authors:
   given-names: "James P"
 title: "Continual Load Modelling dataset"
 version: 1.0.0
-doi: 10.48550/arXiv.2210.14824
 date-released: 2023-03-02
 url: "https://github.com/IdahoLabResearch/HydroGenerate"
