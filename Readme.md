@@ -48,7 +48,7 @@ its maximum operating capacity.
 
 Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
 
-For further details on our work please check out the poster(s) presented at IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) [2023](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/ISGT23 - Bhaskar.pdf)
+For further details on our work please check out the poster(s) presented at IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) [2023](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/ISGT23-Bhaskar.pdf)
 
 
 <br clear="right"/>
