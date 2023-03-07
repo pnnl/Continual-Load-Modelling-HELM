@@ -48,6 +48,9 @@ its maximum operating capacity.
 
 Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
 
+For further details on our work please check out the poster(s) presented at IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) [2023](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/ISGT23 - Bhaskar.pdf)
+
+
 <br clear="right"/>
 
 **Authors**
@@ -66,7 +69,7 @@ James Ogle
 If you are using our data and repository kindly cite the following papers:
 
 
-B. Mitra, A. Singhal, S. Kundu, J. P Ogle, "Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023, doi: 10.48550/arXiv.2210.14824
+B. Mitra, A. Singhal, S. Kundu, J. P Ogle, "Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads", 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington D.C., USA, 2023, doi: 10.48550/arXiv.2210.14824.
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
 
