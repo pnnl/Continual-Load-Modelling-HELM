@@ -32,19 +32,31 @@ transformers and evaluating their performance.
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
+<br clear="left"/>
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
+
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
-was curated for the analysis using a mixture of differnt power electronic load combinations. A total of 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided.
+was curated for the analysis using a mixture of different power electronic load combinations including laptops, desktops/television, PV, HVAC and EVs. High fidelity data for two datasets are available
+(i) 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided, and (ii) 11 scenarios for 5 different houses with EV as an additional load.
 
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
 
-Currents recorded in the transformer secondary for the different scenarios described are recorded. The load compositions depict differnt times of the day when the transformer would be loaded close to 
+<br clear="left"/>
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="500px"/>
+
+Currents recorded in the transformer secondary for scenarios described were recorded. The load compositions depict different times of the day when the transformer would be loaded close to 
 its maximum operating capacity. 
+
 
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="right" width="500px"/>
+
+
 
 Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
 
