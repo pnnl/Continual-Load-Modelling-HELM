@@ -53,7 +53,7 @@ its maximum operating capacity.
 
 <br clear="left"/>
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="right" width="450px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="right" width="400px"/>
 
 <br clear="left"/>
 
