@@ -44,12 +44,14 @@ was curated for the analysis using a mixture of different power electronic load 
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
 
+Currents recorded in the transformer secondary for scenarios described were recorded. The load compositions depict different times of the day when the transformer would be loaded close to 
+its maximum operating capacity. 
+
 <br clear="right"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="left" width="400px"/>
 
-Currents recorded in the transformer secondary for scenarios described were recorded. The load compositions depict different times of the day when the transformer would be loaded close to 
-its maximum operating capacity. 
+
 
 
 <br clear="left"/>
