@@ -45,7 +45,7 @@ The different loading conditions for the use cases are:
 | 1 | 25 | -1 |
 
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="400px"/>
 
 (ii) 11 scenarios for 5 different houses along with EV:
 
@@ -64,7 +64,7 @@ The different loading conditions for the use cases are:
 | 11 | 60 | -14.5 |
 
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="400px"/>
 
 <br clear="left"/>
 
