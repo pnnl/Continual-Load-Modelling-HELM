@@ -33,7 +33,7 @@ was curated for the analysis using a mixture of different power electronic load 
 
 The different loading conditions for the use cases are:
 
-(i) 10 scenarios for 5 different houses:
+(i) 5 scenarios for 5 different houses sampled at 20kHz:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
@@ -46,7 +46,7 @@ The different loading conditions for the use cases are:
 | 1 | 25 | -1 | 
 
 
-(ii) 11 scenarios for 5 different houses along with EV:
+(ii) 11 scenarios for 5 different houses along with EV sampled at 3.8kHz:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 

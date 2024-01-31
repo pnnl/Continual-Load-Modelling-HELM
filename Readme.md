@@ -33,9 +33,9 @@ was curated for the analysis using a mixture of different power electronic load 
 
 The different loading conditions for the use cases are:
 
-(i) 10 scenarios for 5 different houses sampled at 20kHz:
+(i) 5 scenarios for 5 different houses sampled at 20kHz:
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/cases.jpg?raw=true" align="right" width="450px"/>
 
 | Scenario |  P (kW) | Q (kVar) |
 | ------------- | ------------- | ------------- |
