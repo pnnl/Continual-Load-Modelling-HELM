@@ -31,6 +31,10 @@ transformers and evaluating their performance.
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
 was curated for the analysis using a mixture of different power electronic load combinations as discussed in the scenarios below. The data is collected from the secondary of a split phase transformer are [available](https://github.com/pnnl/Continual-Load-Modelling-HELM/tree/master/datasets).
 
+For replicating a house EV charging condition a single phase EV charger with unidirectional power flow was designed (Level 1 120V).
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/EV_model.png?raw=true" align="right" width="400px"/>
+
 The different loading conditions for the use cases are:
 
 (i) 5 scenarios for 5 different houses sampled at 20kHz:
