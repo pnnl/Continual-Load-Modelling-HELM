@@ -68,7 +68,7 @@ The load compositions depict different times of the day when the transformer wou
 
 Case 1            |  Case 2
 :-------------------------:|:-------------------------:
-![]("https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="left" width="400px")  |  ![](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="400px)
+[Case 1 Transformer Current]("https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="left" width="400px")  |  [Case 2 Transformer Current](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="400px)
 
 
 
