@@ -39,11 +39,11 @@ The different loading conditions for the use cases are:
 
 | Scenario |  P (kW) | Q (kVar) |
 | ------------- | ------------- | ------------- |
-| 1 | 7 | -1 |
-| 1 | 20 |  4 |
-| 1 | 17 |  2 |
-| 1 | 7 | -1 |
-| 1 | 25 | -1 | 
+| 1 | 9.5 | -1 |
+| 2 | 8 |  4 |
+| 3 | 6.5 |  2 |
+| 4 | -8 | -1 |
+| 5 | -11.5 | -1 | 
 
 
 (ii) 11 scenarios for 5 different houses along with EV sampled at 3.8kHz:
