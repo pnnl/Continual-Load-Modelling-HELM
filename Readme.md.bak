@@ -30,10 +30,6 @@ transformers and evaluating their performance.
 
 <br clear="left"/>
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
-
-<br clear="left"/>
-
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
@@ -49,6 +45,10 @@ The different loading conditions for the use cases are:
 | 1 | 2 | 17 |  2 |
 | 1 | 3 | 7 | -1 |
 | 1 | 4 | 25 | -1 |
+
+<br clear="left"/>
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
 <br clear="left"/>
 

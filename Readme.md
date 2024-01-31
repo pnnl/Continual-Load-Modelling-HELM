@@ -28,27 +28,47 @@ Non-linear power electronic loads intothe distribution network has the potential
 generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
 transformers and evaluating their performance.
 
-<br clear="left"/>
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
-was curated for the analysis using a mixture of different power electronic load combinations including laptops, desktops/television, PV, HVAC and EVs. High fidelity data for two datasets are available
-(i) 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided, and (ii) 11 scenarios for 5 different houses with EV as an additional load.
+was curated for the analysis using a mixture of different power electronic load combinations including laptops, desktops/television, PV, HVAC and EVs. The data is collected from the secondary of a split phase transformer.
+High fidelity data for two simulated conditions are [available](https://github.com/pnnl/Continual-Load-Modelling-HELM/tree/master/datasets).
 
 The different loading conditions for the use cases are:
 
-| Scenario | No.of PV units | P (kW) | Q (kVar) |
+(i) 10 scenarios for 5 different houses:
+
+| Scenario |  P (kW) | Q (kVar) |
 | ------------- | ------------- | ------------- | ------------- | 
-| 1 | 0 | 20 | -2 |
-| 1 | 1 | 20 |  4 |
-| 1 | 2 | 17 |  2 |
-| 1 | 3 | 7 | -1 |
-| 1 | 4 | 25 | -1 |
+| 1 | 7 | -1 |
+| 1 | 20 |  4 |
+| 1 | 17 |  2 |
+| 1 | 7 | -1 |
+| 1 | 25 | -1 |
 
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
+
+(ii) 11 scenarios for 5 different houses along with EV:
+
+| Scenario | P (kW) | Q (kVar) |
+| ------------- | ------------- | ------------- | ------------- | 
+| 1 | 7 | -1 |
+| 2 | 19 | 4 |
+| 3 | 25 | 3.5 |
+| 4 | 36 | 3 |
+| 5 | 45 | 2 |
+| 6 | 55 | 4 |
+| 7 | 39 | -5 |
+| 8 | 32 | -12 |
+| 9 | 29 | -17 |
+| 10 | 20 | -18 |
+| 11 | 60 | -14.5 |
+
+<br clear="left"/>
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 
 <br clear="left"/>
 
