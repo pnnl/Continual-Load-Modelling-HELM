@@ -50,7 +50,7 @@ The different loading conditions for the use cases are:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 
-| Scenario | P (kW) | Q (kVar) | Transformer Loading (%) |
+| Scenario | P (kW) | Q (kVar) | Transformer <br>Loading (%) |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | 7 | -1 | 14 |
 | 2 | 19 | 4 | 40 |
