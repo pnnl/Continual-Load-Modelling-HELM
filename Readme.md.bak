@@ -34,6 +34,7 @@ was curated for the analysis using a mixture of different power electronic load 
 The different loading conditions for the use cases are:
 
 (i) 10 scenarios for 5 different houses:
+
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
 | Scenario |  P (kW) | Q (kVar) |
@@ -46,7 +47,9 @@ The different loading conditions for the use cases are:
 
 
 (ii) 11 scenarios for 5 different houses along with EV:
+
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
+
 | Scenario | P (kW) | Q (kVar) |
 | ------------- | ------------- | ------------- |
 | 1 | 7 | -1 |
@@ -61,18 +64,12 @@ The different loading conditions for the use cases are:
 | 10 | 20 | -18 |
 | 11 | 60 | -14.5 |
 
+The load compositions depict different times of the day when the transformer would be loaded close to its maximum operating capacity. 
 
 
-<br clear="left"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="left" width="400px"/>
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
 
-Currents recorded in the transformer secondary for scenarios described were recorded. The load compositions depict different times of the day when the transformer would be loaded close to 
-its maximum operating capacity. 
-
-<br clear="right"/>
-
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="left" width="400px"/>
 
 <br clear="left"/>
 
