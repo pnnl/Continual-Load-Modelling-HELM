@@ -35,7 +35,7 @@ For replicating a house EV charging condition a single phase EV charger with uni
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/EV_model.png?raw=true" align="left" width="500px"/>
 
-<br>
+<br clear="left"/>
 The different loading conditions for the use cases are:
 
 (i) 5 scenarios for 5 different houses sampled at 20kHz:
