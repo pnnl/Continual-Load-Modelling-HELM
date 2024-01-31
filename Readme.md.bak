@@ -66,7 +66,7 @@ The different loading conditions for the use cases are:
 
 The load compositions depict different times of the day when the transformer would be loaded close to its maximum operating capacity. 
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="450px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="400px"/>
 
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="left" width="400px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/thd_eddy_loss.png?raw=true" align="right" width="400px"/>
