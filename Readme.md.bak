@@ -29,8 +29,7 @@ generated from the harmonics. To have a good  understanding of  current standing
 transformers and evaluating their performance.
 
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
-was curated for the analysis using a mixture of different power electronic load combinations including laptops, desktops/television, PV, HVAC and EVs. The data is collected from the secondary of a split phase transformer.
-High fidelity data for two simulated conditions are [available](https://github.com/pnnl/Continual-Load-Modelling-HELM/tree/master/datasets).
+was curated for the analysis using a mixture of different power electronic load combinations as discussed in the scenarios below. The data is collected from the secondary of a split phase transformer are [available](https://github.com/pnnl/Continual-Load-Modelling-HELM/tree/master/datasets).
 
 The different loading conditions for the use cases are:
 
@@ -42,9 +41,9 @@ The different loading conditions for the use cases are:
 | 1 | 20 |  4 |
 | 1 | 17 |  2 |
 | 1 | 7 | -1 |
-| 1 | 25 | -1 |
+| 1 | 25 | -1 | <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
+
 
 (ii) 11 scenarios for 5 different houses along with EV:
 
