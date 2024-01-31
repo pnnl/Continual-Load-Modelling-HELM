@@ -43,7 +43,7 @@ The different loading conditions for the use cases are:
 | 2 | 7.75 |  -3 | 15 |
 | 3 | 5.5 |  -8 | 20 |
 | 4 | -20 | -5 | 41 |
-| 5 | -11.5 | -1 | |
+| 5 | -7 | -33 | 68 |
 
 
 (ii) 11 scenarios for 5 different houses along with EV sampled at 3.8kHz:
