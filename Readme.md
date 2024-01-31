@@ -37,10 +37,10 @@ The different loading conditions for the use cases are:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/cases.jpg?raw=true" align="right" width="450px"/>
 
-| Scenario |  P (kW) | Q (kVar) |
-| ------------- | ------------- | ------------- |
-| 1 | 9.5 | -1 |
-| 2 | 8 |  4 |
+| Scenario | P (kW) | Q (kVar) | Transformer Loading (%) |
+| ------------- | ------------- | ------------- | ------------- |
+| 1 | 7 | -3 | 14 |
+| 2 | 7.75 |  4 |
 | 3 | 6.5 |  2 |
 | 4 | -8 | -1 |
 | 5 | -11.5 | -1 | 
@@ -50,19 +50,19 @@ The different loading conditions for the use cases are:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 
-| Scenario | P (kW) | Q (kVar) |
-| ------------- | ------------- | ------------- |
-| 1 | 7 | -1 |
-| 2 | 19 | 4 |
-| 3 | 25 | 3.5 |
-| 4 | 36 | 3 |
-| 5 | 45 | 2 |
-| 6 | 55 | 4 |
-| 7 | 39 | -5 |
-| 8 | 32 | -12 |
-| 9 | 29 | -17 |
-| 10 | 20 | -18 |
-| 11 | 60 | -14.5 |
+| Scenario | P (kW) | Q (kVar) | Transformer Loading (%) |
+| ------------- | ------------- | ------------- | ------------- |
+| 1 | 7 | -1 | 14 |
+| 2 | 19 | 4 | 40 |
+| 3 | 25 | 3.5 | 51 |
+| 4 | 36 | 3 | 72 |
+| 5 | 45 | 2 | 90 |
+| 6 | 55 | 4 | 110 |
+| 7 | 39 | -5 | 78 |
+| 8 | 32 | -12 | 68 |
+| 9 | 29 | -17 | 68 |
+| 10 | 20 | -18 | 54 |
+| 11 | 60 | -14.5 | 110 |
 
 The load compositions depict different times of the day when the transformer would be loaded close to its maximum operating capacity. 
 
