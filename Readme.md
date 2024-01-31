@@ -44,7 +44,6 @@ The different loading conditions for the use cases are:
 | 1 | 7 | -1 |
 | 1 | 25 | -1 |
 
-<br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
 
@@ -64,7 +63,6 @@ The different loading conditions for the use cases are:
 | 10 | 20 | -18 |
 | 11 | 60 | -14.5 |
 
-<br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="450px"/>
 

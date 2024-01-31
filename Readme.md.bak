@@ -28,8 +28,6 @@ Non-linear power electronic loads intothe distribution network has the potential
 generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
 transformers and evaluating their performance.
 
-
-
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
 was curated for the analysis using a mixture of different power electronic load combinations including laptops, desktops/television, PV, HVAC and EVs. The data is collected from the secondary of a split phase transformer.
 High fidelity data for two simulated conditions are [available](https://github.com/pnnl/Continual-Load-Modelling-HELM/tree/master/datasets).
@@ -39,7 +37,7 @@ The different loading conditions for the use cases are:
 (i) 10 scenarios for 5 different houses:
 
 | Scenario |  P (kW) | Q (kVar) |
-| ------------- | ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- |
 | 1 | 7 | -1 |
 | 1 | 20 |  4 |
 | 1 | 17 |  2 |
@@ -53,7 +51,7 @@ The different loading conditions for the use cases are:
 (ii) 11 scenarios for 5 different houses along with EV:
 
 | Scenario | P (kW) | Q (kVar) |
-| ------------- | ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- |
 | 1 | 7 | -1 |
 | 2 | 19 | 4 |
 | 3 | 25 | 3.5 |
