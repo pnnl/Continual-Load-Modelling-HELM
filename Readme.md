@@ -37,20 +37,20 @@ The different loading conditions for the use cases are:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/cases.jpg?raw=true" align="right" width="400px"/>
 
-| Scenario | P (kW) | Q (kVar) | Transformer <br> Loading (%) |
+| Scenario | P <br> (kW) | Q <br> (kVar) | Transformer <br> Loading (%) |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | 7 | -3 | 14 |
 | 2 | 7.75 |  -3 | 15 |
 | 3 | 5.5 |  -8 | 20 |
 | 4 | -20 | -5 | 41 |
-| 5 | -11.5 | -1 | 
+| 5 | -11.5 | -1 | |
 
 
 (ii) 11 scenarios for 5 different houses along with EV sampled at 3.8kHz:
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="400px"/>
 
-| Scenario | P (kW) | Q (kVar) | Transformer <br> Loading (%) |
+| Scenario | P <br> (kW) | Q <br> (kVar) | Transformer <br> Loading (%) |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | 7 | -1 | 14 |
 | 2 | 19 | 4 | 40 |

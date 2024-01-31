@@ -42,7 +42,7 @@ The different loading conditions for the use cases are:
 | 1 | 7 | -3 | 14 |
 | 2 | 7.75 |  -3 | 15 |
 | 3 | 5.5 |  -8 | 20 |
-| 4 | -8 | -1 | 
+| 4 | -20 | -5 | 41 |
 | 5 | -11.5 | -1 | 
 
 
@@ -66,10 +66,10 @@ The different loading conditions for the use cases are:
 
 The load compositions depict different times of the day when the transformer would be loaded close to its maximum operating capacity. 
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="400px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/trans_current.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="400px"/>
 
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/thd_eddy_loss.png?raw=true" align="right" width="400px"/>
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/eddy_loss_4scenario.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/thd_eddy_loss.png?raw=true" align="right" width="400px"/>
 
 <br clear="left"/> <br clear="right"/> 
 Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
