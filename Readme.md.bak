@@ -40,7 +40,7 @@ The different loading conditions for the use cases are:
 | Scenario | P (kW) | Q (kVar) | Transformer Loading (%) |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | 7 | -3 | 14 |
-| 2 | 8 |  4 |
+| 2 | 7.75 |  4 |
 | 3 | 6.5 |  2 |
 | 4 | -8 | -1 |
 | 5 | -11.5 | -1 | 
