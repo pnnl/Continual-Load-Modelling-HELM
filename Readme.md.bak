@@ -40,6 +40,16 @@ Detailed power electronic models are developed for different load combinations t
 was curated for the analysis using a mixture of different power electronic load combinations including laptops, desktops/television, PV, HVAC and EVs. High fidelity data for two datasets are available
 (i) 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided, and (ii) 11 scenarios for 5 different houses with EV as an additional load.
 
+The different loading conditions for the use cases are:
+
+| Scenario | No.of PV units | P (kW) | Q (kVar) |
+| ------------- | ------------- | ------------- | ------------- | 
+| 1 | 0 | 20 | -2 |
+| 1 | 1 | 20 |  4 |
+| 1 | 2 | 17 |  2 |
+| 1 | 3 | 7 | -1 |
+| 1 | 4 | 25 | -1 |
+
 <br clear="left"/>
 
 <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
