@@ -100,10 +100,27 @@ James Ogle
 
 If you are using our data and repository kindly cite the following papers:
 
+A. Peerzada, B. Mitra, S. Kundu, J. Ogle, "On the Impact of High-Order Harmonic Generation in Electrical Distribution Systems," 2024 ECCE Conference, Pheonix, AZ, USA, 2024.
 
 B. Mitra, A. Singhal, S. Kundu and J. P. Ogle, "Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads," 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington, DC, USA, 2023, pp. 1-5, doi: 10.1109/ISGT51731.2023.10066387.
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
+
+**Panels**
+
+Advancing Load Modeling and Power Electronics Integration in Evolving Grid Environments: Challenges, Solutions, and Open-Source Approaches, Venue: ECCE 2024, 
+
+Speakers: 
+
+Mattewos Tefferi, G&W Electric
+
+Scott Hinson, Pecan Street
+
+Soumya Kundu, Pacific Nortwest National Laboratory
+
+Chair(s):
+
+Bhaskar Mitra and Aaqib Peerzada Pacific Northwest National Laboratory
 
 
 **Acknowledgement**
