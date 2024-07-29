@@ -108,7 +108,7 @@ A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harm
 
 **Panels**
 
-Advancing Load Modeling and Power Electronics Integration in Evolving Grid Environments: Challenges, Solutions, and Open-Source Approaches, Venue: ECCE 2024, 
+Advancing Load Modeling and Power Electronics Integration in Evolving Grid Environments: Challenges, Solutions, and Open-Source Approaches, Venue: ECCE 2024, Pheonix, AZ, USA.
 
 Speakers: 
 
