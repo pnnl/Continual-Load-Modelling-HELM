@@ -1,14 +1,15 @@
-using Test
+#using Test
 using HELM
-using CSV, DataFrames, Statistics, FFTW
-using JSON, YAML
-using ProgressMeter
-using Logging
-using Plots
+using CSV
+using DataFrames
+using Statistics
+#using FFTW
+#using JSON, YAML
+#using ProgressMeter
+#using Logging
+#using Plots
 
 # Logging.disable_logging(Logging.Info)
-
-cd("orestis")
 
 function averageT(inputVec)
     xVec = inputVec[2:end]
@@ -17,18 +18,18 @@ function averageT(inputVec)
     return mean(xVec - yVec)
 end
 
-numOfHarmonics = 7
+numOfHarmonics = 5
 @info "Entering execution..."
-for setNum = [6] 
+for setNum = [5] 
     @info "Processing set..." setNum 
     vMatInTimeDomain = CSV.File(
-        "./harmonicsCSVs/vol_sce$(setNum).csv", 
+        "../../datasets/Other_loads/sce$(setNum)_vol.csv", 
         header = 1, 
         types = Float64
         ) |> DataFrame |> Matrix
 
     iMatInTimeDomain = CSV.File(
-        "./harmonicsCSVs/cur_sce$(setNum).csv", 
+        "../../datasets/Other_loads/sce$(setNum)_cur.csv", 
         header = 1, 
         types = Float64
         ) |> DataFrame |> Matrix 
@@ -61,8 +62,8 @@ for setNum = [6]
     #rowsToKeep = map(x -> real(x) .> -1e-9, iMatFreqDomain[:, 1]) 
     #iMatFreqDomain = iMatFreqDomain[rowsToKeep, :]
 
-    DataFrame(vMatFreqDomain, :auto) |> CSV.write("./harmonicsCSVs/sce$(setNum)_vMatFreqDomain.csv")
-    DataFrame(iMatFreqDomain, :auto) |> CSV.write("./harmonicsCSVs/sce$(setNum)_iMatFreqDomain.csv")
+    DataFrame(vMatFreqDomain, :auto) |> CSV.write("./results/sce$(setNum)_vMatFreqDomain.csv")
+    DataFrame(iMatFreqDomain, :auto) |> CSV.write("./results/sce$(setNum)_iMatFreqDomain.csv")
 
     vMatFreqDomain = vMatFreqDomain[1:numOfHarmonics, :]
     iMatFreqDomain = iMatFreqDomain[1:numOfHarmonics, :]
@@ -73,7 +74,7 @@ for setNum = [6]
     FCM_full_cmplx = iMatFreqDomain[:, 1:nTrain] / vMtxTrain
 
     #display(FCM_full) 
-    DataFrame(FCM_full_cmplx, :auto) |> CSV.write("./harmonicsCSVs/sce$(setNum)_FCM_full.csv")
+    DataFrame(FCM_full_cmplx, :auto) |> CSV.write("./results/sce$(setNum)_FCM_full.csv")
 
     #FCM_full_real = real.(FCM_full_cmplx)
     #FCM_full_imag = imag.(FCM_full_cmplx)
