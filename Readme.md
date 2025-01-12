@@ -116,12 +116,26 @@ Mattewos Tefferi, G&W Electric
 
 Scott Hinson, Pecan Street
 
-Soumya Kundu, Pacific Nortwest National Laboratory
+Soumya Kundu, Pacific Northwest National Laboratory
 
 Chair(s):
 
 Bhaskar Mitra and Aaqib Peerzada Pacific Northwest National Laboratory
 
+
+Grid Monitoring for Decarbonization: Advancing Load Modeling for Sustainable Power Grids, Venue: Grid Edge 2025, San Diego, CA, USA.
+
+Speakers:
+
+Byron Kaufman, Grid Science
+
+Scott Hinson, Pecan Street
+
+Soumya Kundu, Pacific Northwest National Laboratory
+
+Chair:
+
+Bhaskar Mitra, Pacific Northwest National Laboratory
 
 **Acknowledgement**
 
