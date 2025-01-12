@@ -108,7 +108,7 @@ A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harm
 
 **Panels**
 
-Advancing Load Modeling and Power Electronics Integration in Evolving Grid Environments: Challenges, Solutions, and Open-Source Approaches, Venue: ECCE 2024, Pheonix, AZ, USA.
+__Advancing Load Modeling and Power Electronics Integration in Evolving Grid Environments: Challenges, Solutions, and Open-Source Approaches, Venue: ECCE 2024, Pheonix, AZ, USA.__
 
 Speakers: 
 
@@ -123,7 +123,7 @@ Chair(s):
 Bhaskar Mitra and Aaqib Peerzada Pacific Northwest National Laboratory
 
 
-Grid Monitoring for Decarbonization: Advancing Load Modeling for Sustainable Power Grids, Venue: Grid Edge 2025, San Diego, CA, USA.
+__Grid Monitoring for Decarbonization: Advancing Load Modeling for Sustainable Power Grids, Venue: Grid Edge 2025, San Diego, CA, USA.__
 
 Speakers:
 
