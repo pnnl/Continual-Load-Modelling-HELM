@@ -28,30 +28,60 @@ Non-linear power electronic loads intothe distribution network has the potential
 generated from the harmonics. To have a good  understanding of  current standing challenges, a knowledge of the generation and load mix as well as the current harmonic estimations are essential for designing 
 transformers and evaluating their performance.
 
-<br clear="left"/>
-
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_updated.jpg?raw=true" align="right" width="450px"/>
-
 Detailed power electronic models are developed for different load combinations to create harmonic rich datasets to entail their effect on transformer operation using PSCAD/EMTdc. A high fidelity dataset 
-was curated for the analysis using a mixture of differnt power electronic load combinations. A total of 10 scenarios for 5 different houses connected to the secondary of a split phase transformer is provided.
+was curated for the analysis using a mixture of different power electronic load combinations as discussed in the scenarios below. The data is collected from the secondary of a split phase transformer are [available](https://github.com/pnnl/Continual-Load-Modelling-HELM/tree/master/datasets).
+
+For replicating a house EV charging condition a single phase EV charger with unidirectional power flow was designed (Level 1 120V).
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/EV_model.png?raw=true" align="left" width="500px"/>
 
 <br clear="left"/>
+The different loading conditions for the use cases are:
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/Transformer_current.png?raw=true" align="right" width="450px"/>
+(i) 5 scenarios for 5 different houses sampled at 20kHz:
 
-Currents recorded in the transformer secondary for the different scenarios described are recorded. The load compositions depict differnt times of the day when the transformer would be loaded close to 
-its maximum operating capacity. 
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/cases.jpg?raw=true" align="right" width="400px"/>
 
-<br clear="left"/>
+| Scenario | P <br> (kW) | Q <br> (kVar) | Transformer <br> Loading (%) |
+| ------------- | ------------- | ------------- | ------------- |
+| 1 | 7 | -3 | 14 |
+| 2 | 7.75 |  -3 | 15 |
+| 3 | 5.5 |  -8 | 20 |
+| 4 | -20 | -5 | 41 |
+| 5 | -7 | -33 | 68 |
 
-<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/THD_calc.png?raw=true" align="right" width="500px"/>
 
+(ii) 11 scenarios for 5 different houses along with EV sampled at 3.8kHz:
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/scenarios_ev.png?raw=true" align="right" width="400px"/>
+
+| Scenario | P <br> (kW) | Q <br> (kVar) | Transformer <br> Loading (%) |
+| ------------- | ------------- | ------------- | ------------- |
+| 1 | 7 | -1 | 14 |
+| 2 | 19 | 4 | 40 |
+| 3 | 25 | 3.5 | 51 |
+| 4 | 36 | 3 | 72 |
+| 5 | 45 | 2 | 90 |
+| 6 | 55 | 4 | 110 |
+| 7 | 39 | -5 | 78 |
+| 8 | 32 | -12 | 68 |
+| 9 | 29 | -17 | 68 |
+| 10 | 20 | -18 | 54 |
+| 11 | 60 | -14.5 | 123 |
+
+The load compositions depict different times of the day when the transformer would be loaded close to its maximum operating capacity. 
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/trans_current.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/transformer_sec.png?raw=true" align="right" width="400px"/>
+
+
+<img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/eddy_loss_4scenario.png?raw=true" align="left" width="350px"/> <img src="https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/thd_eddy_loss.png?raw=true" align="right" width="400px"/>
+
+<br clear="left"/> <br clear="right"/> 
 Analysis of the transformer secondary currents are performed to have a detailed understanding on the Total Harmonic Distortion (THD) and Eddy Current losses (%).
 
 For further details on our work please check out the poster presented at IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) [2023](https://github.com/pnnl/Continual-Load-Modelling-HELM/raw/master/img/ISGT23-Bhaskar.pdf).
 
 
-<br clear="right"/>
 
 **Team**
 ```
@@ -70,11 +100,42 @@ James Ogle
 
 If you are using our data and repository kindly cite the following papers:
 
+A. Peerzada, B. Mitra, S. Kundu, J. Ogle, "On the Impact of High-Order Harmonic Generation in Electrical Distribution Systems," 2024 ECCE Conference, Pheonix, AZ, USA, 2024.
 
 B. Mitra, A. Singhal, S. Kundu and J. P. Ogle, "Analyzing Distribution Transformer Degradation with Increased Power Electronic Loads," 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington, DC, USA, 2023, pp. 1-5, doi: 10.1109/ISGT51731.2023.10066387.
 
 A. Singhal, D. Wang, A. P. Reiman, Y. Liu, D. J. Hammerstrom and S. Kundu, "Harmonic Modeling, Data Generation, and Analysis of Power Electronics-Interfaced Residential Loads," 2022 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), New Orleans, LA, USA, 2022, pp. 1-5, doi: 10.1109/ISGT50606.2022.9817492.
 
+**Panels**
+
+__Advancing Load Modeling and Power Electronics Integration in Evolving Grid Environments: Challenges, Solutions, and Open-Source Approaches, Venue: ECCE 2024, Pheonix, AZ, USA.__
+
+Speakers: 
+
+Mattewos Tefferi, G&W Electric
+
+Scott Hinson, Pecan Street
+
+Soumya Kundu, Pacific Northwest National Laboratory
+
+Chair(s):
+
+Bhaskar Mitra and Aaqib Peerzada Pacific Northwest National Laboratory
+
+
+__Grid Monitoring for Decarbonization: Advancing Load Modeling for Sustainable Power Grids, Venue: Grid Edge 2025, San Diego, CA, USA.__
+
+Speakers:
+
+Byron Kaufman, Grid Science
+
+Scott Hinson, Pecan Street
+
+Soumya Kundu, Pacific Northwest National Laboratory
+
+Chair:
+
+Bhaskar Mitra, Pacific Northwest National Laboratory
 
 **Acknowledgement**
 
